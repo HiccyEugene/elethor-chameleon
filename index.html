@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elethor Chameleon Themes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Elethor Chameleon Themes</h1>
+        <p>A collection of custom themes for the Elethor Chameleon userscript</p>
+        <div class="header-links">
+            <a href="https://github.com/YOUR_USERNAME/elethor-themes" target="_blank">GitHub Repository</a>
+            <a href="#how-to-use">How to Use</a>
+        </div>
+    </header>
+
+    <section id="how-to-use" class="instructions">
+        <h2>How to Use These Themes</h2>
+        <ol>
+            <li>Click the "Copy Theme" button for the theme you want</li>
+            <li>In Elethor, click the 🎨 button in the game interface</li>
+            <li>Click the "Import" button</li>
+            <li>Paste the copied JSON code</li>
+            <li>The theme will be automatically applied</li>
+        </ol>
+    </section>
+
+    <main class="theme-grid">
+        <!-- Dark Theme -->
+        <section class="theme-card">
+            <h2>Dark Theme</h2>
+            <div class="theme-preview">
+                <div class="preview-bar" style="background-color: #2d3748;"></div>
+                <div class="preview-action" style="background-color: #1a202c;"></div>
+                <div class="preview-background" style="background-color: #121622;">
+                    <span style="color: #e2e8f0;">Text</span>
+                    <span style="color: #f56565;">Warning</span>
+                    <span style="color: #48bb78;">Success</span>
+                </div>
+            </div>
+            <pre id="dark-theme-json">{
+  "backgroundColor": "#121622",
+  "actionBarColor": "#1a202c",
+  "topBarColor": "#2d3748",
+  "textColor": "#e2e8f0",
+  "warningTextColor": "#f56565",
+  "successTextColor": "#48bb78"
+}</pre>
+            <button class="copy-btn" data-theme="dark-theme-json">Copy Theme</button>
+        </section>
+
+        <!-- Cyberpunk Theme -->
+        <section class="theme-card">
+            <h2>Cyberpunk Theme</h2>
+            <div class="theme-preview">
+                <div class="preview-bar" style="background-color: #121420;"></div>
+                <div class="preview-action" style="background-color: #232946;"></div>
+                <div class="preview-background" style="background-color: #0f0e17;">
+                    <span style="color: #00ffff;">Text</span>
+                    <span style="color: #ff2a6d;">Warning</span>
+                    <span style="color: #05ffa1;">Success</span>
+                </div>
+            </div>
+            <pre id="cyberpunk-theme-json">{
+  "backgroundColor": "#0f0e17",
+  "actionBarColor": "#232946",
+  "topBarColor": "#121420",
+  "textColor": "#00ffff",
+  "warningTextColor": "#ff2a6d",
+  "successTextColor": "#05ffa1"
+}</pre>
+            <button class="copy-btn" data-theme="cyberpunk-theme-json">Copy Theme</button>
+        </section>
+
+        <!-- Space Theme -->
+        <section class="theme-card">
+            <h2>Space Theme</h2>
+            <div class="theme-preview">
+                <div class="preview-bar" style="background-color: #2b2b35;"></div>
+                <div class="preview-action" style="background-color: #1e1e24;"></div>
+                <div class="preview-background" style="background-color: #121212;">
+                    <span style="color: #8e9aaf;">Text</span>
+                    <span style="color: #ff6b6b;">Warning</span>
+                    <span style="color: #67f3da;">Success</span>
+                </div>
+            </div>
+            <pre id="space-theme-json">{
+  "backgroundColor": "#121212",
+  "actionBarColor": "#1e1e24",
+  "topBarColor": "#2b2b35",
+  "textColor": "#8e9aaf",
+  "warningTextColor": "#ff6b6b",
+  "successTextColor": "#67f3da"
+}</pre>
+            <button class="copy-btn" data-theme="space-theme-json">Copy Theme</button>
+        </section>
+
+        <!-- Forest Theme -->
+        <section class="theme-card">
+            <h2>Forest Theme</h2>
+            <div class="theme-preview">
+                <div class="preview-bar" style="background-color: #3b5e3b;"></div>
+                <div class="preview-action" style="background-color: #2c432c;"></div>
+                <div class="preview-background" style="background-color: #1b2a1b;">
+                    <span style="color: #c9e4ca;">Text</span>
+                    <span style="color: #e76f51;">Warning</span>
+                    <span style="color: #52b788;">Success</span>
+                </div>
+            </div>
+            <pre id="forest-theme-json">{
+  "backgroundColor": "#1b2a1b",
+  "actionBarColor": "#2c432c",
+  "topBarColor": "#3b5e3b",
+  "textColor": "#c9e4ca",
+  "warningTextColor": "#e76f51",
+  "successTextColor": "#52b788"
+}</pre>
+            <button class="copy-btn" data-theme="forest-theme-json">Copy Theme</button>
+        </section>
+
+        <!-- Ocean Theme -->
+        <section class="theme-card">
+            <h2>Ocean Theme</h2>
+            <div class="theme-preview">
+                <div class="preview-bar" style="background-color: #003566;"></div>
+                <div class="preview-action" style="background-color: #001d3d;"></div>
+                <div class="preview-background" style="background-color: #00111c;">
+                    <span style="color: #aec3b0;">Text</span>
+                    <span style="color: #ef476f;">Warning</span>
+                    <span style="color: #06d6a0;">Success</span>
+                </div>
+            </div>
+            <pre id="ocean-theme-json">{
+  "backgroundColor": "#00111c",
+  "actionBarColor": "#001d3d",
+  "topBarColor": "#003566",
+  "textColor": "#aec3b0",
+  "warningTextColor": "#ef476f",
+  "successTextColor": "#06d6a0"
+}</pre>
+            <button class="copy-btn" data-theme="ocean-theme-json">Copy Theme</button>
+        </section>
+
+        <!-- Purple Nebula -->
+        <section class="theme-card">
+            <h2>Purple Nebula</h2>
+            <div class="theme-preview">
+                <div class="preview-bar" style="background-color: #513278;"></div>
+                <div class="preview-action" style="background-color: #3b2059;"></div>
+                <div class="preview-background" style="background-color: #2d1b40;">
+                    <span style="color: #e2d9f2;">Text</span>
+                    <span style="color: #ff5e5b;">Warning</span>
+                    <span style="color: #7dde92;">Success</span>
+                </div>
+            </div>
+            <pre id="purple-theme-json">{
+  "backgroundColor": "#2d1b40",
+  "actionBarColor": "#3b2059",
+  "topBarColor": "#513278",
+  "textColor": "#e2d9f2",
+  "warningTextColor": "#ff5e5b",
+  "successTextColor": "#7dde92"
+}</pre>
+            <button class="copy-btn" data-theme="purple-theme-json">Copy Theme</button>
+        </section>
+
+        <!-- Ruby Dream -->
+        <section class="theme-card">
+            <h2>Ruby Dream</h2>
+            <div class="theme-preview">
+                <div class="preview-bar" style="background-color: #7b2346;"></div>
+                <div class="preview-action" style="background-color: #591937;"></div>
+                <div class="preview-background" style="background-color: #3a0d27;">
+                    <span style="color: #ffd9da;">Text</span>
+                    <span style="color: #ffc145;">Warning</span>
+                    <span style="color: #93e5ab;">Success</span>
+                </div>
+            </div>
+            <pre id="ruby-theme-json">{
+  "backgroundColor": "#3a0d27",
+  "actionBarColor": "#591937",
+  "topBarColor": "#7b2346",
+  "textColor": "#ffd9da",
+  "warningTextColor": "#ffc145",
+  "successTextColor": "#93e5ab"
+}</pre>
+            <button class="copy-btn" data-theme="ruby-theme-json">Copy Theme</button>
+        </section>
+
+        <!-- Golden Desert -->
+        <section class="theme-card">
+            <h2>Golden Desert</h2>
+            <div class="theme-preview">
+                <div class="preview-bar" style="background-color: #66502c;"></div>
+                <div class="preview-action" style="background-color: #4d3b2d;"></div>
+                <div class="preview-background" style="background-color: #33271f;">
+                    <span style="color: #ffe6a7;">Text</span>
+                    <span style="color: #ff6b6c;">Warning</span>
+                    <span style="color: #6ecb63;">Success</span>
+                </div>
+            </div>
+            <pre id="golden-theme-json">{
+  "backgroundColor": "#33271f",
+  "actionBarColor": "#4d3b2d",
+  "topBarColor": "#66502c",
+  "textColor": "#ffe6a7",
+  "warningTextColor": "#ff6b6c",
+  "successTextColor": "#6ecb63"
+}</pre>
+            <button class="copy-btn" data-theme="golden-theme-json">Copy Theme</button>
+        </section>
+
+        <!-- More themes can be added here following the same pattern -->
+    </main>
+
+    <footer>
+        <p>© 2025 • Created by YOUR_NAME • <a href="https://github.com/YOUR_USERNAME/elethor-themes">GitHub Repository</a></p>
+    </footer>
+</body>
+</html>
